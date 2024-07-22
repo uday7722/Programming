@@ -20,6 +20,8 @@ public class SpecailTwoDigitNumber {
 	private static boolean specialTwo(int num) {
 		int a=num%10;
 		int b=num/10;
+		
+		System.out.println(b);
 
 		int product=a*b;
 		int sum=a+b;
