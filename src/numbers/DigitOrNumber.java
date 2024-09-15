@@ -16,6 +16,7 @@ public class DigitOrNumber {
 	private static String digitOrNum(int sc) {
 		if(sc<10 && sc>-10)
 			return "digit";
+		
 		return "number";
 	}
 
